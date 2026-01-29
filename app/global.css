@@ -1,0 +1,98 @@
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Typography === */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f0f0f; /* deep black-blue gradient base */
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #4f46e5; /* brand accent */
+}
+
+/* === Buttons === */
+button {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+/* === Forms === */
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+/* === Footer === */
+footer {
+  background-color: #0a0a0a;
+  color: #ccc;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ccc;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+/* === Utility Classes === */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
